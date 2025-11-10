@@ -9,6 +9,7 @@ cmake ..
 
 ## Run
 ./NewtonFractal [n]
+
 n (optional) — degree of the polynomial z^n - 1 = 0.
 
 The program outputs: newton_fractal.png
