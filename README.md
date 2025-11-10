@@ -3,13 +3,12 @@
 ## Build
 
 ### Create build directory
-mkdir build
-cd build
-
+mkdir build && cd build
 ### Configure with CMake
 cmake ..
 
 ## Run
 ./NewtonFractal [n]
-
 n (optional) — degree of the polynomial z^n - 1 = 0.
+
+The program outputs: newton_fractal.png
